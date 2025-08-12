@@ -1,0 +1,17 @@
+Authentication**:
+  - JWT-based login/logout for managers.
+  - Protected routes and conditional navbar rendering.
+- **Dashboard**:
+  - Total Profit
+  - Efficiency Score
+  - On-time vs Late Deliveries chart
+  - Fuel Cost Breakdown chart
+- **Simulation Page**:
+  - Set inputs: number of drivers, route start time, max hours/day.
+  - Run simulation → fetches backend results & updates KPIs in real-time.
+- **Management Pages**:
+  - CRUD operations for Drivers, Routes, Orders.
+- **UI**:
+  - Responsive design (mobile & desktop).
+  - Charts using **Chart.js** or **Recharts**.
+  - Real-time KPI updates after simulation.
